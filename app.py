@@ -2064,7 +2064,7 @@ with logo_col:
     st.image(
         os.path.join(
             os.path.dirname(__file__),
-            "tvs_credit_logo (1).png"
+            "tvs_credit_logo.png"
         ),
         width=180
     )
