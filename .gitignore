@@ -1,0 +1,14 @@
+# Runtime data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Environment
+.env
