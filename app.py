@@ -2156,7 +2156,7 @@ if selected_role == "Customer Portal":
     with badge_col:
 
         st.markdown(
-            "**Risk-Calibrated AI**"
+            "**AI-Powered • Risk-Calibrated**"
         )
 
         st.caption(
@@ -2196,9 +2196,7 @@ if selected_role == "Customer Portal":
 
             st.markdown(
                 """
-    Our intelligent engine analyses historical credit
-    behaviour, evaluates credit capacity and relative risk,
-    and recommends an appropriate maximum Personal Loan offer.
+    Our AI evaluates verified credit capacity and relative risk to recommend a personalised maximum Personal Loan amount.
                 """
             )
 
@@ -2301,7 +2299,7 @@ if selected_role == "Customer Portal":
                 )
 
                 st.caption(
-                    "Based on comparable borrower behaviour"
+                    "Based on your verified credit capacity & risk profile"
                 )
 
 
