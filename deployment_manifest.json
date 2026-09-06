@@ -1,0 +1,35 @@
+{
+  "project": "TVS Credit SmartLimit V4",
+  "build": "Final Deployment Candidate",
+  "created_at": "2026-09-06T09:37:31.741086",
+  "runtime_entrypoint": "app.py",
+  "roles": [
+    "Customer Portal",
+    "Loan Officer Workspace",
+    "Branch Manager Console"
+  ],
+  "architecture": {
+    "ai_recommends": true,
+    "policy_gate": true,
+    "human_final_decision": true,
+    "automatic_final_sanction": false,
+    "historical_matching_controls_amount": false
+  },
+  "branch_manager_override": {
+    "enabled": true,
+    "downward_override": true,
+    "upward_override": true,
+    "hard_ceiling": "CUSTOMER_REQUESTED_AMOUNT",
+    "warning_bands": {
+      "up_to_10_percent": "CAUTION",
+      "10_to_20_percent": "MATERIAL",
+      "above_20_percent": "HIGH"
+    },
+    "override_justification_required": true,
+    "upward_acknowledgement_required": true,
+    "audit_override_amount": true,
+    "audit_override_percentage": true,
+    "audit_warning_level": true
+  },
+  "test_database_included": false
+}
